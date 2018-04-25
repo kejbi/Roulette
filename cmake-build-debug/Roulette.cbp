@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Roulette"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kejbi/CLionProjects/Roulette/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kejbi/CLionProjects/Roulette/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kejbi/CLionProjects/Roulette/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Roulette">
+				<Option output="/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Roulette" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kejbi/CLionProjects/Roulette/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 Roulette"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Roulette/fast">
+				<Option output="/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Roulette" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kejbi/CLionProjects/Roulette/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 Roulette/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kejbi/CLionProjects/Roulette/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/bets.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/bets.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/circullar_list.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/inputvalidator.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/inputvalidator.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/interface.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/interface.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/main.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/player.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/player.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/roulette.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/roulette.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/roulettetile.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/roulettetile.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/saveload.cpp">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/saveload.h">
+			<Option target="Roulette"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/Roulette/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

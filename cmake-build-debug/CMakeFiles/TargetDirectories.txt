@@ -1,0 +1,3 @@
+/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/Roulette.dir
