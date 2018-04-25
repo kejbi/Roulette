@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Roulette.dir/saveload.cpp.o"
   "CMakeFiles/Roulette.dir/interface.cpp.o"
   "CMakeFiles/Roulette.dir/inputvalidator.cpp.o"
-  "CMakeFiles/Roulette.dir/tests.cpp.o"
   "Roulette.pdb"
   "Roulette"
 )

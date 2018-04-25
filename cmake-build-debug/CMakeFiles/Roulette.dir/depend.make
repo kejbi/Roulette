@@ -45,6 +45,3 @@ CMakeFiles/Roulette.dir/saveload.cpp.o: ../roulettetile.h
 CMakeFiles/Roulette.dir/saveload.cpp.o: ../saveload.cpp
 CMakeFiles/Roulette.dir/saveload.cpp.o: ../saveload.h
 
-CMakeFiles/Roulette.dir/tests.cpp.o: ../catch.h
-CMakeFiles/Roulette.dir/tests.cpp.o: ../tests.cpp
-

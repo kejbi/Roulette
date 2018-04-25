@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kejbi/CLionProjects/Roulette/roulette.cpp" "/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/Roulette.dir/roulette.cpp.o"
   "/home/kejbi/CLionProjects/Roulette/roulettetile.cpp" "/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/Roulette.dir/roulettetile.cpp.o"
   "/home/kejbi/CLionProjects/Roulette/saveload.cpp" "/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/Roulette.dir/saveload.cpp.o"
-  "/home/kejbi/CLionProjects/Roulette/tests.cpp" "/home/kejbi/CLionProjects/Roulette/cmake-build-debug/CMakeFiles/Roulette.dir/tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -90,9 +90,6 @@
 		<Unit filename="/home/kejbi/CLionProjects/Roulette/bets.h">
 			<Option target="Roulette"/>
 		</Unit>
-		<Unit filename="/home/kejbi/CLionProjects/Roulette/catch.h">
-			<Option target="Roulette"/>
-		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/Roulette/circullar_list.h">
 			<Option target="Roulette"/>
 		</Unit>
@@ -133,9 +130,6 @@
 			<Option target="Roulette"/>
 		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/Roulette/saveload.h">
-			<Option target="Roulette"/>
-		</Unit>
-		<Unit filename="/home/kejbi/CLionProjects/Roulette/tests.cpp">
 			<Option target="Roulette"/>
 		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/Roulette/CMakeLists.txt">

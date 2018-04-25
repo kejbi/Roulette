@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Roulette_t.dir/roulettetile.cpp.o CMakeFiles/Roulette_t.dir/roulette.cpp.o CMakeFiles/Roulette_t.dir/bets.cpp.o CMakeFiles/Roulette_t.dir/player.cpp.o CMakeFiles/Roulette_t.dir/saveload.cpp.o CMakeFiles/Roulette_t.dir/interface.cpp.o CMakeFiles/Roulette_t.dir/inputvalidator.cpp.o CMakeFiles/Roulette_t.dir/tests.cpp.o  -o Roulette_t 

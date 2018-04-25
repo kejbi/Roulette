@@ -339,33 +339,6 @@ saveload.cpp.s:
 	$(MAKE) -f CMakeFiles/Roulette.dir/build.make CMakeFiles/Roulette.dir/saveload.cpp.s
 .PHONY : saveload.cpp.s
 
-tests.o: tests.cpp.o
-
-.PHONY : tests.o
-
-# target to build an object file
-tests.cpp.o:
-	$(MAKE) -f CMakeFiles/Roulette.dir/build.make CMakeFiles/Roulette.dir/tests.cpp.o
-.PHONY : tests.cpp.o
-
-tests.i: tests.cpp.i
-
-.PHONY : tests.i
-
-# target to preprocess a source file
-tests.cpp.i:
-	$(MAKE) -f CMakeFiles/Roulette.dir/build.make CMakeFiles/Roulette.dir/tests.cpp.i
-.PHONY : tests.cpp.i
-
-tests.s: tests.cpp.s
-
-.PHONY : tests.s
-
-# target to generate assembly for a file
-tests.cpp.s:
-	$(MAKE) -f CMakeFiles/Roulette.dir/build.make CMakeFiles/Roulette.dir/tests.cpp.s
-.PHONY : tests.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -399,9 +372,6 @@ help:
 	@echo "... saveload.o"
 	@echo "... saveload.i"
 	@echo "... saveload.s"
-	@echo "... tests.o"
-	@echo "... tests.i"
-	@echo "... tests.s"
 .PHONY : help
 
 
