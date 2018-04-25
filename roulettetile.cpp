@@ -31,3 +31,17 @@ void RouletteTile::setValue(int v) {
 RouletteTile::RouletteTile() {
 
 }
+std::ostream& operator<< (std::ostream &output, RouletteTile const& rt)
+{
+    if(rt.tile_color==green){
+        output<<"green ";
+    }
+    if(rt.tile_color==black){
+        output<<"black ";
+    }
+    if(rt.tile_color==red){
+        output<<"red ";
+    }
+    output<<rt.value;
+    return output;
+}

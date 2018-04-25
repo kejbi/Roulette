@@ -5,10 +5,28 @@ CMakeFiles/Roulette.dir/bets.cpp.o: ../bets.cpp
 CMakeFiles/Roulette.dir/bets.cpp.o: ../bets.h
 CMakeFiles/Roulette.dir/bets.cpp.o: ../roulettetile.h
 
+CMakeFiles/Roulette.dir/inputvalidator.cpp.o: ../inputvalidator.cpp
+CMakeFiles/Roulette.dir/inputvalidator.cpp.o: ../inputvalidator.h
+
+CMakeFiles/Roulette.dir/interface.cpp.o: ../bets.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../circullar_list.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../inputvalidator.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../interface.cpp
+CMakeFiles/Roulette.dir/interface.cpp.o: ../interface.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../player.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../roulette.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../roulettetile.h
+CMakeFiles/Roulette.dir/interface.cpp.o: ../saveload.h
+
+CMakeFiles/Roulette.dir/main.cpp.o: ../bets.h
 CMakeFiles/Roulette.dir/main.cpp.o: ../circullar_list.h
+CMakeFiles/Roulette.dir/main.cpp.o: ../inputvalidator.h
+CMakeFiles/Roulette.dir/main.cpp.o: ../interface.h
 CMakeFiles/Roulette.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Roulette.dir/main.cpp.o: ../player.h
 CMakeFiles/Roulette.dir/main.cpp.o: ../roulette.h
 CMakeFiles/Roulette.dir/main.cpp.o: ../roulettetile.h
+CMakeFiles/Roulette.dir/main.cpp.o: ../saveload.h
 
 CMakeFiles/Roulette.dir/player.cpp.o: ../player.cpp
 CMakeFiles/Roulette.dir/player.cpp.o: ../player.h
@@ -26,4 +44,7 @@ CMakeFiles/Roulette.dir/saveload.cpp.o: ../player.h
 CMakeFiles/Roulette.dir/saveload.cpp.o: ../roulettetile.h
 CMakeFiles/Roulette.dir/saveload.cpp.o: ../saveload.cpp
 CMakeFiles/Roulette.dir/saveload.cpp.o: ../saveload.h
+
+CMakeFiles/Roulette.dir/tests.cpp.o: ../catch.h
+CMakeFiles/Roulette.dir/tests.cpp.o: ../tests.cpp
 

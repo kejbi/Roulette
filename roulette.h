@@ -16,5 +16,6 @@ public:
     void spin();
     color getColor();
     int getValue();
+    RouletteTile getActual();
 };
 #endif //ROULETTE_ROULETTE_H

@@ -14,6 +14,7 @@ private:
     std::string name;
 public:
     Player(int c, std::string n);
+    Player();
     int takeCredits(const int c);
     void addCredits(const int c);
     std::string getName();

@@ -36,3 +36,7 @@ void Player::setCredits(const int c) {
     credits=c;
 
 }
+
+Player::Player() {
+
+}

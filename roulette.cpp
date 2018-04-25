@@ -40,4 +40,8 @@ int Roulette::getValue() {
     return tab.getActualContent().getValue();
 }
 
+RouletteTile Roulette::getActual() {
+    return tab.getActualContent();
+}
+
 

@@ -30,3 +30,19 @@ bool Bets::goodBet(color c, int v) {
         return false;
     }
 }
+
+color Bets::getBetColor() {
+    return betcolor;
+}
+
+int Bets::getBetValue() {
+    return betvalue;
+}
+
+int Bets::getBetCredits() {
+    return betcredits;
+}
+
+int Bets::getMultiplier() {
+    return multiplier;
+}

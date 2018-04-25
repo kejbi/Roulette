@@ -18,8 +18,9 @@ private:
     SaveLoad sl;
     Bets b;
     InputValidator iv;
-    int choice, amount, running;
-    std::string n;
+    int choice, amount, running=1;
+    std::string n, gofurther;
+    std::fstream f;
 public:
     void run();
     void readChoice(int a, int b);

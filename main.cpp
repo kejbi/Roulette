@@ -1,13 +1,12 @@
 #include <iostream>
 #include "circullar_list.h"
 #include "roulette.h"
+#include "interface.h"
 
 int main() {
     srand(time(nullptr));
-    Roulette r;
-    r.spin();
-    std::cout<<r.getColor();
-    std::cout<<r.getValue();
+    Interface itf;
+    itf.run();
 
     return 0;
 }

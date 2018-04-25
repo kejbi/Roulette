@@ -5,11 +5,29 @@ CMakeFiles/Roulette.dir/bets.cpp.o
  /home/kejbi/CLionProjects/Roulette/bets.cpp
  /home/kejbi/CLionProjects/Roulette/bets.h
  /home/kejbi/CLionProjects/Roulette/roulettetile.h
-CMakeFiles/Roulette.dir/main.cpp.o
+CMakeFiles/Roulette.dir/inputvalidator.cpp.o
+ /home/kejbi/CLionProjects/Roulette/inputvalidator.cpp
+ /home/kejbi/CLionProjects/Roulette/inputvalidator.h
+CMakeFiles/Roulette.dir/interface.cpp.o
+ /home/kejbi/CLionProjects/Roulette/bets.h
  /home/kejbi/CLionProjects/Roulette/circullar_list.h
- /home/kejbi/CLionProjects/Roulette/main.cpp
+ /home/kejbi/CLionProjects/Roulette/inputvalidator.h
+ /home/kejbi/CLionProjects/Roulette/interface.cpp
+ /home/kejbi/CLionProjects/Roulette/interface.h
+ /home/kejbi/CLionProjects/Roulette/player.h
  /home/kejbi/CLionProjects/Roulette/roulette.h
  /home/kejbi/CLionProjects/Roulette/roulettetile.h
+ /home/kejbi/CLionProjects/Roulette/saveload.h
+CMakeFiles/Roulette.dir/main.cpp.o
+ /home/kejbi/CLionProjects/Roulette/bets.h
+ /home/kejbi/CLionProjects/Roulette/circullar_list.h
+ /home/kejbi/CLionProjects/Roulette/inputvalidator.h
+ /home/kejbi/CLionProjects/Roulette/interface.h
+ /home/kejbi/CLionProjects/Roulette/main.cpp
+ /home/kejbi/CLionProjects/Roulette/player.h
+ /home/kejbi/CLionProjects/Roulette/roulette.h
+ /home/kejbi/CLionProjects/Roulette/roulettetile.h
+ /home/kejbi/CLionProjects/Roulette/saveload.h
 CMakeFiles/Roulette.dir/player.cpp.o
  /home/kejbi/CLionProjects/Roulette/player.cpp
  /home/kejbi/CLionProjects/Roulette/player.h
@@ -27,3 +45,6 @@ CMakeFiles/Roulette.dir/saveload.cpp.o
  /home/kejbi/CLionProjects/Roulette/roulettetile.h
  /home/kejbi/CLionProjects/Roulette/saveload.cpp
  /home/kejbi/CLionProjects/Roulette/saveload.h
+CMakeFiles/Roulette.dir/tests.cpp.o
+ /home/kejbi/CLionProjects/Roulette/catch.h
+ /home/kejbi/CLionProjects/Roulette/tests.cpp
