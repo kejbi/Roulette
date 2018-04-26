@@ -20,8 +20,9 @@ void Interface::run() {
                 startGame();
                 break;
             case 2:
-                loadGame();
-                startGame();
+                if(loadGame()) {
+                    startGame();
+                }
                 break;
             case 3:
                 running=0;
@@ -199,12 +200,16 @@ void Interface::saveGame() {
 
 }
 
-void Interface::loadGame() {
+bool Interface::loadGame() {
     system("clear");
     std::cout<<"Give me the save-file name, please!"<<std::endl;
     std::cin>>n;
     if(iv.fileTest(f,n)){
         sl.loadGame(n,pl);
+        return true;
+    }
+    else{
+        return false;
     }
 
 }

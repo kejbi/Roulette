@@ -27,7 +27,7 @@ public:
     void readAmount(int a); //a minimal value to read, maximum is set (1000)
     void readName(int l); //l - acceptable length of read name
     void newGame(); //reads credits and name of player
-    void loadGame(); //loads name and credits from save-file
+    bool loadGame(); //loads name and credits from save-file, return false when loading failed, true when successful
     void saveGame(); //save to save-file actual credits and name of player
     void makeBetValue(); //read amount of credits we want to bet and number we bet
     void makeBetColor(); //read amount of credits we want to bet and color we bet
