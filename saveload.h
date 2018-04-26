@@ -11,7 +11,7 @@
 
 class SaveLoad{
 public:
-    void saveGame(std::string filename, Player& p);
-    void loadGame(std::string filename, Player& p);
+    void saveGame(std::string filename, Player& p); //save game to file, filename - name of save-file, p - player which facilities we want to save
+    void loadGame(std::string filename, Player& p); //load game from file, -------||--------
 };
 #endif //ROULETTE_SAVELOAD_H

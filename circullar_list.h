@@ -6,23 +6,24 @@
 #define ROULETTE_CIRCULLAR_LIST_H
 
 #include <iostream>
-
+//template of circullar list (T is type of content which is stored by list)
 template <class T>
 class CircullarList{
 private:
     struct A{
         T content;
-        A* next;
+        A* next; //pointer on next tile of list
     };
-    A* head;
-    A* actual;
-    A* tail;
+    A* head;//pointer on head (first) tile
+    A* actual;//pointer on actual tile
+    A* tail;//pointer on tail(last tile)
 public:
     CircullarList(){
         head = nullptr;
         actual = nullptr;
         tail = nullptr;
     }
+    //adds element which content is e
     void add_element(T e){
         if(head==nullptr){
             A* temp;
@@ -44,6 +45,7 @@ public:
             tail=temp;
         }
     }
+    //changes actual tile on next tile
     void next(){
         actual=actual->next;
 

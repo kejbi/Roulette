@@ -10,13 +10,13 @@
 
 class Player{
 private:
-    int credits;
-    std::string name;
+    int credits; //amount of credits player has
+    std::string name; //name of player
 public:
     Player(int c, std::string n);
     Player();
-    int takeCredits(const int c);
-    void addCredits(const int c);
+    int takeCredits(const int c); //takes c credits from player's credits
+    void addCredits(const int c); //adds c credits to player's credits
     std::string getName();
     int getCredits();
     void setName(const std::string n);

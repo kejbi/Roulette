@@ -7,23 +7,25 @@
 
 #include <iostream>
 
+//possible color of tile of roulette
 enum color{
     green,
     black,
     red,
     none
 };
+//roulettetile is single tile of roulette
 class RouletteTile{
 private:
-    int value;
-    color tile_color;
-    friend std::ostream& operator<< (std::ostream&,RouletteTile const&);
+    int value; //number of tile
+    color tile_color; //color of tile
+    friend std::ostream& operator<< (std::ostream&,RouletteTile const&); //on output "color value"
 public:
     RouletteTile();
-    RouletteTile(int v, color c);
+    RouletteTile(int v, color c); //v - number of tile, c - color of tile
     int getValue();
     color getColor();
-    void setColor(color c);
-    void setValue(int v);
+    void setColor(color c); //c - new color of tile
+    void setValue(int v); //v - new number of tile
 };
 #endif //ROULETTE_ROULETTETILE_H

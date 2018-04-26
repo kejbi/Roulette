@@ -15,9 +15,9 @@ private:
     int betcredits;
     int multiplier;
 public:
-    void betColor(const int credit, color c, int m);
-    void betValue(const int credit, int value, int m);
-    bool goodBet(color c, int v);
+    void betColor(const int credit, color c, int m); //credit - amount of bet credits, c - bet color, m - multiplier of bet
+    void betValue(const int credit, int value, int m);// value - bet number
+    bool goodBet(color c, int v); //c- color on the roulette, v - value on the roulette, returns true when bet is correct, false when isn't
     color getBetColor();
     int getBetValue();
     int getBetCredits();

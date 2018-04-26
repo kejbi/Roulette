@@ -9,7 +9,7 @@
 
 class InputValidator{
 public:
-    //tests return 1 if correct, 0 if not
+    //tests return true if correct, false if not
 
     bool numberTest(int a, int b, int in); //checks if the number is from range [a,b]
     bool numberTest(int a, int in); //overload method, checks if number is  from range [a, infinity]

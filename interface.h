@@ -22,18 +22,18 @@ private:
     std::string n, gofurther;
     std::fstream f;
 public:
-    void run();
-    void readChoice(int a, int b);
-    void readAmount(int a);
-    void readName(int l);
-    void newGame();
-    void loadGame();
-    void saveGame();
-    void makeBetValue();
-    void makeBetColor();
-    void startGame();
-    void spinning();
-    void betCredits();
+    void run(); //runs game
+    void readChoice(int a, int b); //[a,b] - range of acceptable read value
+    void readAmount(int a); //a minimal value to read, maximum is set (1000)
+    void readName(int l); //l - acceptable length of read name
+    void newGame(); //reads credits and name of player
+    void loadGame(); //loads name and credits from save-file
+    void saveGame(); //save to save-file actual credits and name of player
+    void makeBetValue(); //read amount of credits we want to bet and number we bet
+    void makeBetColor(); //read amount of credits we want to bet and color we bet
+    void startGame(); //starts game, after newgame() or loadgame()
+    void spinning(); //mechanics of game, spinning of roulette, checking if bet is correct, adding/taking player's credits
+    void betCredits(); //read amount of bet credits
 
 };
 #endif //ROULETTE_INTERFACE_H
